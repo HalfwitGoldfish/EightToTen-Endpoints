@@ -21,6 +21,6 @@
 
   3. Restaurant Picker: create 1 endpoint that takes an input and generates a Randomly Generated Restaurant based on the category chosen. 10 Restaurants per category.
 
-*Reviewer's Name*:
+*Reviewer's Name*: Santiago Jesus Montanez
 
-*Peer Review*:
+*Peer Review*: The only concern I have with the project is that for the assignment they want guessit to respond with if the user guessed too high, too low, or if they are correct. Yours only tells the user they are wrong and tells them the answer. you want to adjust that. Otherwise, good job 👍
