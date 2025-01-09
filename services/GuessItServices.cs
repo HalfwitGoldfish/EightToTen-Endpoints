@@ -14,7 +14,11 @@ namespace EightToTen_Endpoints.services
                 if (parsedGuess == num)
                     return "You got it!";
 
-                return $"Sorry, you didn't get it. It was {num}.";
+                if (parsedGuess > num)
+                    return $"Sorry, that was too high. It was {num}.";
+
+                if (parsedGuess < num)
+                    return $"Sorry, that was too low. It was {num}.";
             }
             return $"Please enter a valid Integer";
         }
@@ -31,7 +35,11 @@ namespace EightToTen_Endpoints.services
                 if (parsedGuess == num)
                     return "You got it!";
 
-                return $"Sorry, you didn't get it. It was {num}.";
+                if (parsedGuess > num)
+                    return $"Sorry, that was too high. It was {num}.";
+
+                if (parsedGuess < num)
+                    return $"Sorry, that was too low. It was {num}.";
             }
             return $"Please enter a valid Integer";
         }
@@ -48,7 +56,11 @@ namespace EightToTen_Endpoints.services
                 if (parsedGuess == num)
                     return "You got it!";
 
-                return $"Sorry, you didn't get it. It was {num}.";
+                if (parsedGuess > num)
+                    return $"Sorry, that was too high. It was {num}.";
+
+                if (parsedGuess < num)
+                    return $"Sorry, that was too low. It was {num}.";
             }
             return $"Please enter a valid Integer";
         }
